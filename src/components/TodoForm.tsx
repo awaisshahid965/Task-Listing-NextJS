@@ -53,10 +53,10 @@ const TodoForm: FC<TodoFormProps> = ({
         onChange={onChangeInputHandler}
       />
       <br />
-      Enter Job Title:{" "}
+      Enter description:{" "}
       <input
         type="text"
-        name="jobTitle"
+        name="description"
         value={todoState.description}
         onChange={onChangeInputHandler}
       />
