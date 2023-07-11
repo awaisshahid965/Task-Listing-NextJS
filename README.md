@@ -2,7 +2,15 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, add .env file to root directory.
+
+Then, go to (mockapi.io)[https://mockapi.io].
+
+Then, add varaible to env file of name **NEXT_PUBLIC_API_ENDPOINT**.
+
+Then, set its value as endpoint of collection from MockApi.
+
+Then, run the development server:
 
 ```bash
 npm run dev
